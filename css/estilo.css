@@ -1,13 +1,28 @@
 body{
     background-color: rgb(198, 160, 235);
-    color:#fff
 }
-img {
-    width: 25%;
+
+header {
+    background-color: rgb(174, 96, 248);
 }
-h1{ 
-    color:rgb(62, 74, 240)
+
+*/Classe Atribuída para a div que vai receber o logotipo */
+logo{
+    background-color: blueviolet;
 }
-h2{
-    color:rgb(93, 102, 233)
+
+nav{
+    background-color: rgb(83, 43, 226);
+}
+
+main{
+    background-color: rgb(105, 70, 235);
+}
+
+section{
+    background-color: rgba(76, 0, 255, 0.733);
+}
+
+footer{
+    background-color: rgb(81, 81, 180);
 }
