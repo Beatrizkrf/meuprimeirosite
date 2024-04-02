@@ -1,8 +1,10 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(198, 160, 235);
     color:#fff
- 
 }
 img {
     width: 30%;
+}
+h1{ 
+    color:black
 }
