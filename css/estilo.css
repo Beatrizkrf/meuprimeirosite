@@ -3,32 +3,32 @@ body{
 }
 
 header {
-    background-color: rgb(204, 150, 255);
+    background-color: rgb(150, 192, 255);
     padding: 3%;
 }
 
 */Classe Atribuída para a div que vai receber o logotipo */
 logo{
-    background-color: blueviolet;
+    background-color: rgb(43, 198, 226);
 }
 
 nav{
-    background-color: rgb(176, 81, 240);
+    background-color: rgb(231, 241, 194);
 }
 
 main{
-    background-color: rgb(105, 70, 235);
+    background-color: rgb(87, 126, 231);
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgba(118, 87, 190, 0.733);
+    background-color: rgba(132, 216, 198, 0.733);
 }
 
 footer{
-    background-color: rgb(81, 81, 180);
+    background-color: rgb(216, 215, 128);
     padding: 3%;
 }
 .cabecalho{
