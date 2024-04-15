@@ -37,6 +37,28 @@ footer{
 .rodape{
     padding: 3%;
 }
-h1,h2{
+h1,h2,h3{
     line-height: 3;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+ul li{
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.3em;
+}
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
 }
