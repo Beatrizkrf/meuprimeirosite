@@ -1,5 +1,9 @@
 body{
     background-color: rgb(181, 218, 235);
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../img/fundo.jpg);
 }
 
 header {
@@ -83,4 +87,10 @@ table {
   /*linha cor sim e cor não*/
   tr:nth-child(even) {
     background-color: rgb(150, 192, 255);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
   }
