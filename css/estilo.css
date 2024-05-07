@@ -84,3 +84,29 @@ table {
   tr:nth-child(even) {
     background-color: rgb(150, 192, 255);
   }
+  
+ img{
+    margin-left: auto ;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+ }
+
+ video{
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
+ }
+
+ .linha{
+    display:flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .col3{
+    width: 25%;
+ }
+
+ .galeria
