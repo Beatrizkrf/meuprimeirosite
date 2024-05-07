@@ -1,12 +1,5 @@
 body{
-    background-color: rgb(232, 246, 252);
-    font-family: "Old Standard TT", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-image: url(../img/fundo2.jpg);
-    
-    
-
+    background-color: rgb(181, 218, 235);
 }
 
 header {
@@ -15,30 +8,27 @@ header {
 }
 
 */Classe Atribuída para a div que vai receber o logotipo */
-.logo{
+logo{
     background-color: rgb(43, 198, 226);
 }
 
-.logotipo{
-    width: 10%;
-}
 nav{
-    background-color: rgb(194, 232, 241);
+    background-color: rgb(231, 241, 194);
 }
 
 main{
-    background-color: rgba(182, 216, 243, 0.966);
-    width: 80%;
+    background-color: rgb(236, 229, 132);
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgba(182, 240, 232, 0.966);
+    background-color: rgba(132, 216, 198, 0.733);
 }
 
 footer{
-    background-color: rgba(182, 216, 243, 0.966);
+    background-color: rgb(216, 215, 128);
     padding: 3%;
 }
 .cabecalho{
@@ -47,7 +37,7 @@ footer{
 .rodape{
     padding: 3%;
 }
-h1,h2,h3,h4,{
+h1,h2,h3,h4{
     line-height: 3;
 }
 p{
@@ -85,6 +75,7 @@ table {
     margin-bottom: 2%;
 }
   
+  
   td, th {
     border: 5px solid #dddddd;
     padding: 8px;
@@ -92,15 +83,4 @@ table {
   /*linha cor sim e cor não*/
   tr:nth-child(even) {
     background-color: rgb(150, 192, 255);
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
-  .video {
-    margin-right: auto;
-    margin-left: auto;
-    display: block
   }
