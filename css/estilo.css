@@ -109,7 +109,6 @@ table {
 
 .referencias{
     text-align: center;
-    font: bold;
 }
 
  .linha{
@@ -135,4 +134,33 @@ table {
 
 }
 
- 
+a:link{
+    color: rgb(107, 26, 236);
+}
+  
+a:visited{
+    color: rgb(5, 102, 192);
+}
+  
+a:hover{
+    color: rgb(252, 28, 121);
+}
+
+.linha{
+    list-style-type: none;
+}
+
+a.menu:link{
+    color: rgb(107, 26, 236);
+    font-size: 1.3em;
+}
+  
+a.menu:visited{
+    color: rgb(5, 102, 192);
+    font-size: 1.3em;
+}
+  
+a.menu:hover{
+    color: rgb(252, 28, 121);
+    font-size: 1.5em;
+}
