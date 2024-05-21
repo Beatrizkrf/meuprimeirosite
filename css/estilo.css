@@ -31,6 +31,8 @@ main{
 
 section{
     background-color: #879cfc2f; /*corpo do texto*/
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 footer{
@@ -172,4 +174,8 @@ a.menu:hover{
 .pspotify{
     font-size: 1.3em;
     text-align: center;
+}
+.menu{
+    justify-content: space-around;
+    display: flex;
 }
