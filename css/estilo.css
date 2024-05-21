@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(181, 200, 235);
-    background-image: url('../img/fundo2.jpg');
+    background-color: #788ff3c7;
+    background-image: url('../img/fundos/teste_fundo.png');
 }
 
 header {
-    background-color: #96c0ff;
+    background-color: #6e71ff94; /*cor logo (cabeçalho)*/
     padding: 3%;
 }
 
 */Classe Atribuída para a div que vai receber o logotipo */
 logo{
-    background-color: rgb(43, 198, 226);
+    background-color: rgba(43, 198, 226, 0.822);
 }   
 
 .logotipo{
@@ -19,22 +19,22 @@ logo{
 }
 
 nav{
-    background-color: #96c0ff;
+    background-color: #48a7f5a9; /*cor menu*/
 }
 
 main{
-    background-color: #9fb0ff;
+    background-color: #879cfcb6; /*titulo principal*/
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: #9fb0ff;
+    background-color: #879cfc2f; /*corpo do texto*/
 }
 
 footer{
-    background-color: #96c0ff;
+    background-color: #6e71ff94; /*cor rodapé*/
     padding: 3%;
 }
 .cabecalho{
@@ -81,12 +81,12 @@ table {
     margin-bottom: 2%;
 }
   td,th {
-    border: 5px solid #c4e4ff; /*Cor da borda da tabela*/
+    border: 5px solid #c4e4ffce; /*Cor da borda da tabela*/
     padding: 8px;
 }
   /*linha cor sim e cor não*/
   tr:nth-child(even) {
-    background-color: rgb(176, 175, 247);
+    background-color: rgba(176, 175, 247, 0.774);
  }
   
  img{
@@ -131,7 +131,7 @@ table {
     width: 90%;
     margin-left: 1%;
     margin-right: 1%;
-
+    
 }
 
 a:link{
@@ -163,4 +163,13 @@ a.menu:visited{
 a.menu:hover{
     color: rgb(252, 28, 121);
     font-size: 1.5em;
+}
+.spotify{
+    width: 85%; /* Largura desejada para o vídeo */
+    margin: 0 auto; /* Define as margens automática (topo e baixo) e centraliza horizontalmente */
+    display: block;
+}
+.pspotify{
+    font-size: 1.3em;
+    text-align: center;
 }
