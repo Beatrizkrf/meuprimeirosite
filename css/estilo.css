@@ -31,10 +31,11 @@ main{
 
 section{
     background-color: #55376931; /*corpo do texto*/
-    margin-left: 2%;
+    /*margin-left: 2%;
     margin-right: 2%;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 3%;*/
+    padding: 2%;
 }
 
 footer{
@@ -53,31 +54,34 @@ footer{
 p{
     line-height: 1.5;
     font-size: 1.2em;
+    color:rgb(215, 191, 241);
+    text-align: center;
 }
 ul li{
     line-height: 1.5;
     font-size: 1.1em;
     text-align: center;
+    color:rgb(215, 191, 241);
 }
 h1{
     font-size: 2em;
     line-height: 3;
-    color:rgba(240, 248, 255, 0.753);
+    color:rgba(240, 248, 255, 0.945);
 }
 h2{
     font-size: 1.5em;
     line-height: 3;
-    color:rgba(240, 248, 255, 0.753);
+    color:rgba(240, 248, 255, 0.945);
 }
 h3{
     font-size: 1.3em;
     line-height: 3;
-    color:rgba(240, 248, 255, 0.753);
+    color:rgba(240, 248, 255, 0.945);
 }
 h4{
     font-size: 1.2em;
     line-height: 3;
-    color:rgba(240, 248, 255, 0.753);
+    color:rgba(240, 248, 255, 0.945);
 }
 .titulos{
     line-height: 3;
@@ -148,10 +152,20 @@ table {
     margin-right: 1%;   
 }
 
+@media only screen and (max-width: 1100px) {
+    [class*="col3"] {
+      width: 50%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    [class*="col3"] {
+      width: 100%;
+    }
+  }
 
 
 a:link{
-    color: rgb(107, 26, 236);
+    color: rgb(185, 26, 164);
 }
   
 a:visited{
@@ -167,12 +181,7 @@ a:hover{
 }
 
 a.menu:link{
-    color:rgba(240, 248, 255, 0.753);
-    font-size: 1.3em;
-}
-  
-a.menu:visited{
-    color: rgb(121, 49, 255);
+    color: rgb(185, 26, 164);
     font-size: 1.3em;
 }
   
