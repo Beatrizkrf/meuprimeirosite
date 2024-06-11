@@ -216,4 +216,26 @@ a.menu:hover{
     width: 30%;
     margin-right: 2%;
 }
-  
+
+
+/***********************************************************************************************************************************/
+
+.texto_bandeira{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+.inicio2{
+    position: relative;
+}
+
+.bandeira{
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80%;
+    display: block;   
+    opacity: 0.3;
+}
