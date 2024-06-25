@@ -277,6 +277,50 @@ a.menu:hover{
     color: aliceblue;
 }
 
+.cantor{
+    width: 35%;
+    margin-right: 2%;
+}
+.negrito{
+    line-height: 1.5;
+    font-size: 1.3em;
+    color:rgb(76, 51, 168);
+    font-weight: bold;
+    margin-right: 2%;
+
+}
+.todoscards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    background-color: #55376931;
+}    
+
+.card{
+    width: 80% ;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #a151b9af ;
+    display: flex;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+@media screen  and (max-width: 768px) {
+    .card{
+        width: calc(50%-20px);
+    }
+}
+
+@media screen  and (max-width: 480px){
+    .card{
+        width: calc(100%-20px);
+    }
+    
+}
+
 /***********************************************************************************************************************************/
 .imgcantores{
     margin-bottom: 2.5%;
