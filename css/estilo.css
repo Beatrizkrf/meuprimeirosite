@@ -2,10 +2,12 @@ body{
     background-color: #788ff3c7;
     background-image: url('../img/fundos/fundo___.png');
 }
-
 header {
     background-color: #503459c0; /*cor logo (cabeçalho)*/
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 */Classe Atribuída para a div que vai receber o logotipo */
@@ -14,12 +16,8 @@ logo{
 }   
 
 .logotipo{
-    width: 10%;
+    width: 20%;
     margin-left: 0%;
-}
-
-nav{
-    background-color: #603886; /*cor menu*/
 }
 
 main{
@@ -27,6 +25,7 @@ main{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15%;
 }
 
 section{
@@ -45,8 +44,51 @@ footer{
     text-align: center;
 }
 .cabecalho{
-    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 50px 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: rgb(215, 191, 241);
+    cursor: pointer;
+}  
+
+#menu-toggle {
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.911);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #8350a5;
+    border-radius: 5px;
+}
+
 .rodape{
     padding: 3%;
 }
@@ -156,6 +198,40 @@ img{
     [class*="col3"] {
       width: 50%;
     }
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(161, 65, 225, 0.527);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
+
+    nav ul li label {
+        /* width: 100%; */
+        display: block;
+    }
   }
 @media only screen and (max-width: 768px) {
     [class*="col3"] {
@@ -168,7 +244,7 @@ a:link{
 }
   
 a:visited{
-    color: rgb(5, 102, 192);
+    color: rgb(235, 128, 160);
 }
   
 a:hover{
@@ -180,7 +256,7 @@ a:hover{
 }
 
 a.menu:link{
-    color: rgb(185, 26, 164);
+    color: rgb(243, 243, 243);
     font-size: 1.3em;
 }
   
@@ -278,7 +354,7 @@ a.menu:hover{
 }
 
 .cantor{
-    width: 35%;
+    width: 30%;
     margin-right: 2%;
 }
 .negrito{
