@@ -12,18 +12,20 @@
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     </head>
     <body>
-        <header class="cabecalho">
-            <div class="logo">
-              <img class="logotipo" src="img/clave-certa.png" alt="">
-            </div>
-            <nav>
-              <ul class="menu">
-                <li class="linha"><a  class="menu" href="index.html">Inicio</a></li>
-                <li class="linha"><a  class="menu" href="index2.html">Cantores</a></li>
-                <li class="linha"><a  class="menu" href="index3.html">Atualmente</a></li>
-              </ul>
-            </nav>
-        </header>
+      <header class="cabecalho">
+        <div class="logo">
+          <img class="logotipo" src="img/clave-certa.png" alt="">
+        </div>        
+        <nav id="menu">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <ul>
+            <li class="linha"><a  class="menu" href="index.html" onclick="document.getElementById('menu-toggle').click()">Inicio</a></li>
+            <li class="linha"><a  class="menu" href="index2.html" onclick="document.getElementById('menu-toggle').click()">Cantores</a></li>
+            <li class="linha"><a  class="menu" href="index3.html" onclick="document.getElementById('menu-toggle').click()">Atualmente</a></li>
+          </ul>
+        </nav>
+    </header>
       <main>
         <h1 class="titulos">MPB Atualmente</h1>
         <section>
