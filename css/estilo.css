@@ -48,7 +48,7 @@ footer{
     align-items: center;
     justify-content: space-between;   
     padding: 50px 70px;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -88,7 +88,10 @@ nav ul li a:hover {
     background-color: #8350a5;
     border-radius: 5px;
 }
-
+nav ul li label {
+    /* width: 100%; */
+    display: block;
+} 
 .rodape{
     padding: 3%;
 }
@@ -198,6 +201,7 @@ img{
     [class*="col3"] {
       width: 50%;
     }
+    
     .menu-icon {
         display: block;
         padding-right: 10px;
