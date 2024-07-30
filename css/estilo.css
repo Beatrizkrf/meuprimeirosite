@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #788ff3c7;
     background-image: url('../img/fundos/fundo___.png');
@@ -30,6 +34,7 @@ main{
 
 section{
     background-color: #55376931; /*corpo do texto*/
+    scroll-margin-top: 225px;
     /*margin-left: 2%;
     margin-right: 2%;
     margin-top: 3%;
